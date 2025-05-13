@@ -1295,6 +1295,10 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 13548544763593312, guid: d80546ae0b681fb429b05187b695a4d3, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5275591935916483299, guid: d80546ae0b681fb429b05187b695a4d3, type: 3}
       propertyPath: m_Name
       value: UndergroundBrick_0 (2)
@@ -1402,6 +1406,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6235919105458502476, guid: 7a254c0219670724a8bf5d208a4d3238, type: 3}
       propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235919105458502476, guid: 7a254c0219670724a8bf5d208a4d3238, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7542676949196182690, guid: 7a254c0219670724a8bf5d208a4d3238, type: 3}
@@ -2798,6 +2806,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 13548544763593312, guid: d80546ae0b681fb429b05187b695a4d3, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 223
+      objectReference: {fileID: 0}
+    - target: {fileID: 13548544763593312, guid: d80546ae0b681fb429b05187b695a4d3, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 5275591935916483299, guid: d80546ae0b681fb429b05187b695a4d3, type: 3}
       propertyPath: m_Name
       value: UndergroundBrick_0 (3)
@@ -2864,7 +2880,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5721616495627386966, guid: d80546ae0b681fb429b05187b695a4d3, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: -51
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3926,7 +3942,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1614264931379592914, guid: dcb1e6680dc88c94ca05716ec7630705, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5514641363283906785, guid: dcb1e6680dc88c94ca05716ec7630705, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7277,18 +7293,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5150834282650592125, guid: 44159fa0a3657be4f83530211e257ba2, type: 3}
-      propertyPath: m_Size.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5150834282650592125, guid: 44159fa0a3657be4f83530211e257ba2, type: 3}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5150834282650592125, guid: 44159fa0a3657be4f83530211e257ba2, type: 3}
-      propertyPath: m_Offset.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5721202871193280496, guid: 44159fa0a3657be4f83530211e257ba2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
